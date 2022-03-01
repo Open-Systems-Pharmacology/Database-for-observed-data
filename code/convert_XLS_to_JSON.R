@@ -1,14 +1,15 @@
 options("warn"=0) # default
 rm(list = ls()) # empty workspace
 closeAllConnections()
-library(gdata)
-library(jsonlite)
+require(readxl)
+require(jsonlite)
 
 #copy paste in der cmd:
 #  cd "<path to OSP installation folder>\Open Systems Pharmacology\PK-Sim 7.3"
 #  PKSim.exe/dev 
 
-fdir <- dirname(sys.frame(1)$ofile)
+#fdir <- dirname(sys.frame(1)$ofile) # get location of this script when script is sourced
+fdir <- dirname(rstudioapi::getActiveDocumentContext()$path) # get location of this script using R studio
 setwd(file.path(fdir,".."))
 source(file.path("code","auxiliaryFunctions.R"))
 
@@ -16,10 +17,16 @@ sharePoint <- getwd()
 DBfileName <- "ObsDataPK_OSP.xlsx"
 
 # read in database
-studies <- read.xls(file.path(sharePoint,DBfileName),sheet="Studies",as.is=TRUE,colClasses="character",skip=1)
-df <- read.xls(file.path(sharePoint,DBfileName),sheet="PK-Profiles",as.is=TRUE,colClasses="character")
-MW <- read.xls(file.path(sharePoint,DBfileName),sheet="Analyte",as.is=TRUE,colClasses="character")
-proj <- read.xls(file.path(sharePoint,DBfileName),sheet="Projects",as.is=TRUE,colClasses="character")
+studies <- read_xlsx(file.path(sharePoint,DBfileName), sheet = "Studies",col_types = "text", skip = 1)
+df <- read_xlsx(file.path(sharePoint,DBfileName),sheet="PK-Profiles",col_types = "text")
+MW <- read_xlsx(file.path(sharePoint,DBfileName),sheet="Analyte",col_types = "text")
+proj <- read_xlsx(file.path(sharePoint,DBfileName),sheet="Projects",col_types = "text")
+
+# convert NA to empty string
+studies <- data.frame(apply(studies,MARGIN = 2,replaceNAbyEmptyString),stringsAsFactors = FALSE)
+df      <- data.frame(apply(df,MARGIN = 2,replaceNAbyEmptyString),stringsAsFactors = FALSE)
+MW      <- data.frame(apply(MW,MARGIN = 2,replaceNAbyEmptyString),stringsAsFactors = FALSE)
+proj    <- data.frame(apply(proj,MARGIN = 2,replaceNAbyEmptyString),stringsAsFactors = FALSE)
 
 # remove white space (left and right)
 studies <- data.frame(apply(studies,MARGIN = 2,trimws,"both"),stringsAsFactors = FALSE)
