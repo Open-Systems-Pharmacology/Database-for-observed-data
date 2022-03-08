@@ -189,3 +189,100 @@ ID,Study,Reference,Grouping,Analyte,t0,tend,t Unit,AUC Avg,AUC AvgUnit,AUC AvgTy
 5399,Walker 1979,https://www.ncbi.nlm.nih.gov/pubmed/762009,Volunteer 9,Amikacin,0,8,h,,,,,,,,,,,,,,,90.1,mL/min,Individual,,,,CLiv,
 5400,Walker 1979,https://www.ncbi.nlm.nih.gov/pubmed/762009,population,Amikacin,0,8,h,,,,,,,,,,,,,,,84.6,mL/min,Arith.mean,18,mL/min,arith. SD,CLiv,
 5417,Walker 1979,https://www.ncbi.nlm.nih.gov/pubmed/762009,Volunteer 6,Amikacin,0,8,h,,,,,,,,,,,,,,,66,mL/min,Individual,,,,CLiv,
+5337,Allegaert 2007,https://www.ncbi.nlm.nih.gov/pubmed/17897267,17d,Propofol,0,24,h,120.67,µg*min/mL,individual,,,,AUC_inf,,,,,,,,25.46,mL/min/kg,Individual,,,,,
+5338,Allegaert 2007,https://www.ncbi.nlm.nih.gov/pubmed/17897267,8d,Propofol,0,24,h,225.18,µg*min/mL,individual,,,,AUC_inf,,,,,,,,13.58,mL/min/kg,Individual,,,,,
+5339,Kataria 1994,https://www.ncbi.nlm.nih.gov/pubmed/8291699,ID10,Propofol,0,152,min,0.295,mmol*min/L,individual,,,,AUC_tend,,,,,,,,,,,,,,,
+5340,Kataria 1994,https://www.ncbi.nlm.nih.gov/pubmed/8291699,ID11,Propofol,0,2.5,h,0.292,mmol*min/L,individual,,,,AUC_tend,,,,,,,,,,,,,,,
+5341,Kataria 1994,https://www.ncbi.nlm.nih.gov/pubmed/8291699,ID12,Propofol,0,150,min,0.191,mmol*min/L,individual,,,,AUC_tend,,,,,,,,,,,,,,,
+5342,Kataria 1994,https://www.ncbi.nlm.nih.gov/pubmed/8291699,ID13,Propofol,0,150,min,0.276,mmol*min/L,individual,,,,AUC_tend,,,,,,,,,,,,,,,
+5343,Kataria 1994,https://www.ncbi.nlm.nih.gov/pubmed/8291699,ID14,Propofol,0,90,min,0.309,mmol*min/L,individual,,,,AUC_tend,,,,,,,,,,,,,,,
+5344,Kataria 1994,https://www.ncbi.nlm.nih.gov/pubmed/8291699,ID15,Propofol,0,60,min,0.289,mmol*min/L,individual,,,,AUC_tend,,,,,,,,,,,,,,,
+5345,Kataria 1994,https://www.ncbi.nlm.nih.gov/pubmed/8291699,ID16,Propofol,0,180,min,0.294,mmol*min/L,individual,,,,AUC_tend,,,,,,,,,,,,,,,
+5346,Kataria 1994,https://www.ncbi.nlm.nih.gov/pubmed/8291699,ID20,Propofol,0,101,min,0.195,mmol*min/L,individual,,,,AUC_tend,,,,,,,,,,,,,,,
+5348,Kataria 1994,https://www.ncbi.nlm.nih.gov/pubmed/8291699,ID21,Propofol,0,150,min,0.25,mmol*min/L,individual,,,,AUC_tend,,,,,,,,,,,,,,,
+5349,Kataria 1994,https://www.ncbi.nlm.nih.gov/pubmed/8291699,ID22,Propofol,0,158,min,0.225,mmol*min/L,individual,,,,AUC_tend,,,,,,,,,,,,,,,
+5350,Kataria 1994,https://www.ncbi.nlm.nih.gov/pubmed/8291699,ID23,Propofol,0,150,min,0.25,mmol*min/L,individual,,,,AUC_tend,,,,,,,,,,,,,,,
+5351,Kataria 1994,https://www.ncbi.nlm.nih.gov/pubmed/8291699,ID24,Propofol,0,60,min,0.222,mmol*min/L,individual,,,,AUC_tend,,,,,,,,,,,,,,,
+5352,Kataria 1994,https://www.ncbi.nlm.nih.gov/pubmed/8291699,ID25,Propofol,0,150,min,0.453,mmol*min/L,individual,,,,AUC_tend,,,,,,,,,,,,,,,
+5353,Kataria 1994,https://www.ncbi.nlm.nih.gov/pubmed/8291699,ID26,Propofol,0,119,min,0.206,mmol*min/L,individual,,,,AUC_tend,,,,,,,,,,,,,,,
+5354,Kataria 1994,https://www.ncbi.nlm.nih.gov/pubmed/8291699,ID30,Propofol,0,180,min,0.271,mmol*min/L,individual,,,,AUC_tend,,,,,,,,,,,,,,,
+5355,Kataria 1994,https://www.ncbi.nlm.nih.gov/pubmed/8291699,ID31,Propofol,0,150,min,0.25,mmol*min/L,individual,,,,AUC_tend,,,,,,,,,,,,,,,
+5356,Kataria 1994,https://www.ncbi.nlm.nih.gov/pubmed/8291699,ID32,Propofol,0,120,min,0.225,mmol*min/L,individual,,,,AUC_tend,,,,,,,,,,,,,,,
+5357,Kataria 1994,https://www.ncbi.nlm.nih.gov/pubmed/8291699,ID34,Propofol,0,240,min,0.323,mmol*min/L,individual,,,,AUC_tend,,,,,,,,,,,,,,,
+5358,Kataria 1994,https://www.ncbi.nlm.nih.gov/pubmed/8291699,ID35,Propofol,0,129,min,0.275,mmol*min/L,individual,,,,AUC_tend,,,,,,,,,,,,,,,
+5359,Kataria 1994,https://www.ncbi.nlm.nih.gov/pubmed/8291699,ID36,Propofol,0,120,min,0.275,mmol*min/L,individual,,,,AUC_tend,,,,,,,,,,,,,,,
+5360,Kataria 1994,https://www.ncbi.nlm.nih.gov/pubmed/8291699,ID37,Propofol,0,180,min,0.333,mmol*min/L,individual,,,,AUC_tend,,,,,,,,,,,,,,,
+5361,Saint-Maurice 1989,https://www.ncbi.nlm.nih.gov/pubmed/2611067,adult,Propofol,0,24,h,0.071022727,mg*min/mL,arith. Mean,,,,AUC_inf,,,,,,,,35.2,mL/min/kg,arith.mean,1.4,mL/min/kg,SEM,CLiv,AUCinf calculated based on Dose/CL
+5362,Saint-Maurice 1989,https://www.ncbi.nlm.nih.gov/pubmed/2611067,ind1,Propofol,0,24,h,0.096525097,mg*min/mL,individual,,,,AUC_inf,,,,,,,,25.9,mL/min/kg,Individual,,,,CLiv,AUCinf calculated based on Dose/CL
+5363,Saint-Maurice 1989,https://www.ncbi.nlm.nih.gov/pubmed/2611067,ind2,Propofol,0,24,h,0.070621469,mg*min/mL,individual,,,,AUC_inf,,,,,,,,35.4,mL/min/kg,Individual,,,,CLiv,AUCinf calculated based on Dose/CL
+5364,Saint-Maurice 1989,https://www.ncbi.nlm.nih.gov/pubmed/2611067,ind3,Propofol,0,24,h,0.088967972,mg*min/mL,individual,,,,AUC_inf,,,,,,,,28.1,mL/min/kg,Individual,,,,CLiv,AUCinf calculated based on Dose/CL
+5365,Saint-Maurice 1989,https://www.ncbi.nlm.nih.gov/pubmed/2611067,ind4,Propofol,0,24,h,0.09057971,mg*min/mL,individual,,,,AUC_inf,,,,,,,,27.6,mL/min/kg,Individual,,,,CLiv,AUCinf calculated based on Dose/CL
+5366,Saint-Maurice 1989,https://www.ncbi.nlm.nih.gov/pubmed/2611067,ind5,Propofol,0,24,h,0.112107623,mg*min/mL,individual,,,,AUC_inf,,,,,,,,22.3,mL/min/kg,Individual,,,,CLiv,AUCinf calculated based on Dose/CL
+5367,Saint-Maurice 1989,https://www.ncbi.nlm.nih.gov/pubmed/2611067,ind6,Propofol,0,24,h,0.11627907,mg*min/mL,individual,,,,AUC_inf,,,,,,,,21.5,mL/min/kg,Individual,,,,CLiv,AUCinf calculated based on Dose/CL
+5368,Saint-Maurice 1989,https://www.ncbi.nlm.nih.gov/pubmed/2611067,ind7,Propofol,0,24,h,0.056306306,mg*min/mL,individual,,,,AUC_inf,,,,,,,,44.4,mL/min/kg,Individual,,,,CLiv,AUCinf calculated based on Dose/CL
+5369,Saint-Maurice 1989,https://www.ncbi.nlm.nih.gov/pubmed/2611067,ind8,Propofol,0,4,h,0.088028169,mg*min/mL,individual,,,,AUC_inf,,,,,,,,28.4,mL/min/kg,Individual,,,,CLiv,AUCinf calculated based on Dose/CL
+5370,Saint-Maurice 1989,https://www.ncbi.nlm.nih.gov/pubmed/2611067,ind9,Propofol,0,4,h,0.065963061,mg*min/mL,individual,,,,AUC_inf,,,,,,,,37.9,mL/min/kg,Individual,,,,CLiv,AUCinf calculated based on Dose/CL
+5434,Saint-Maurice 1989,https://www.ncbi.nlm.nih.gov/pubmed/2611067,ind10,Propofol,0,4,h,0.06377551,mg*min/mL,individual,,,,AUC_inf,,,,,,,,39.2,mL/min/kg,Individual,,,,CLiv,AUCinf calculated based on Dose/CL
+5295,Iwamoto 2008,https://www.ncbi.nlm.nih.gov/pubmed/19143531,400mg FCT,Raltegravir,0,24,h,11,µmol*h/L,geo. mean,122,%,CV%,AUC_inf,2.88,µmol/L,geom.mean,184,µmol/L,CV%,Cmax,,,,,,,,
+5296,Markowitz 2006,https://www.ncbi.nlm.nih.gov/pubmed/17133211,100mg FCT MD,Raltegravir,0,12,h,5.7,µmol*h/L,geo. mean,,,,AUC_tau,2.1,µmol/L,geom.mean,,,,,,,,,,,,90% CI and Range were reported (not filled in)
+5297,Markowitz 2006,https://www.ncbi.nlm.nih.gov/pubmed/17133211,200mg FCT MD,Raltegravir,0,12,h,9.2,µmol*h/L,geo. mean,,,,AUC_tau,3.5,µmol/L,geom.mean,,,,,,,,,,,,90% CI and Range were reported (not filled in)
+5298,Markowitz 2006,https://www.ncbi.nlm.nih.gov/pubmed/17133211,400mg FCT MD,Raltegravir,0,12,h,14.2,µmol*h/L,geo. mean,,,,AUC_tau,4.5,µmol/L,geom.mean,,,,,,,,,,,,90% CI and Range were reported (not filled in)
+5299,Markowitz 2006,https://www.ncbi.nlm.nih.gov/pubmed/17133211,600mg FCT MD,Raltegravir,0,12,h,14.6,µmol*h/L,geo. mean,,,,AUC_tau,3.8,µmol/L,geom.mean,,,,,,,,,,,,90% CI and Range were reported (not filled in)
+5300,Kassahun 2007,https://www.ncbi.nlm.nih.gov/pubmed/17591678,200mg FCT SD,Raltegravir,0,22,h,11.28,µmol*h/L,arith. Mean,4.36,µmol*h/L,arith. SD,AUC_tau,4.94,µmol/L,arith. mean,1.8,µmol/L,arith. SD,Cmax,,,,,,,,t_end a mean of 22 (from reported 20-24h) was inputed
+5301,Rizk 2015,https://www.ncbi.nlm.nih.gov/pubmed/25753401,3.5m,Raltegravir,0,12,h,21.6,µmol*h/L,geo. mean,40,%,CV%,AUC_tend,,,,,,,,,,,,,,,
+5302,Rizk 2015,https://www.ncbi.nlm.nih.gov/pubmed/25753401,15m,Raltegravir,0,12,h,19.8,µmol*h/L,geo. mean,34,%,CV%,AUC_tend,,,,,,,,,,,,,,,
+5303,Nachmann 2013,https://www.ncbi.nlm.nih.gov/pubmed/24145879,Cohort 1,Raltegravir,0,12,h,10.2,mg*h/L,arith. Mean,10,mg*h/L,arith. SD,AUC_tend,2813.1,ng/mL,arith. mean,2673.9,ng/mL,arith. SD,Cmax,71.7,L/h,arith.mean,56.7,L/h,arith. SD,CL/F,"Other than Arithmatic mean, also median and Geomean with CV% are reported"
+5304,Nachmann 2013,https://www.ncbi.nlm.nih.gov/pubmed/24145879,Cohort 2a,Raltegravir,0,12,h,13.4,mg*h/L,arith. Mean,16.1,mg*h/L,arith. SD,AUC_tend,4055.7,ng/mL,arith. mean,5269.5,ng/mL,arith. SD,Cmax,112.8,L/h,arith.mean,161.4,L/h,arith. SD,CL/F,"Other than Arithmatic mean, also median and Geomean with CV% are reported"
+5305,Nachmann 2013,https://www.ncbi.nlm.nih.gov/pubmed/24145879,Cohort 2b,Raltegravir,0,12,h,10.5,mg*h/L,arith. Mean,3.5,mg*h/L,arith. SD,AUC_tend,5314.2,ng/mL,arith. mean,2842.6,ng/mL,arith. SD,Cmax,23.6,L/h,arith.mean,8.9,L/h,arith. SD,CL/F,"Other than Arithmatic mean, also median and Geomean with CV% are reported"
+5306,Nachmann 2013,https://www.ncbi.nlm.nih.gov/pubmed/24145879,Cohort 3,Raltegravir,0,12,h,9.5,mg*h/L,arith. Mean,5.5,mg*h/L,arith. SD,AUC_tend,5204.8,ng/mL,arith. mean,2640.6,ng/mL,arith. SD,Cmax,13.3,L/h,arith.mean,10.1,L/h,arith. SD,CL/F,"Other than Arithmatic mean, also median and Geomean with CV% are reported"
+5307,Larson 2013,https://www.ncbi.nlm.nih.gov/pubmed/24600298,3y,Raltegravir,0,12,h,18,µmol*h/L,geo. mean,59,%,CV%,AUC_tend,,,,,,,,,,,,,,,
+5308,Larson 2013,https://www.ncbi.nlm.nih.gov/pubmed/24600298,9y,Raltegravir,0,12,h,22.6,µmol*h/L,geo. mean,34,%,CV%,AUC_tend,,,,,,,,,,,,,,,
+5309,Larson 2013,https://www.ncbi.nlm.nih.gov/pubmed/24600298,10.5y,Raltegravir,0,12,h,15.8,µmol*h/L,geo. mean,120,%,CV%,AUC_tend,,,,,,,,,,,,,,,
+5433,Larson 2013,https://www.ncbi.nlm.nih.gov/pubmed/24600298,15y,Raltegravir,0,12,h,15.7,µmol*h/L,geo. mean,98,%,CV%,AUC_tend,,,,,,,,,,,,,,,
+5435,Rhee 2014,https://www.ncbi.nlm.nih.gov/pubmed/24608069,Chewable tablet fasted,Raltegravir,0,24,h,34.2,µmol*h/L,geo. mean,,,,AUC_inf,16.1,µmol/L,Geom.mean,,,,Cmax,,,,,,,,
+5436,Rhee 2014,https://www.ncbi.nlm.nih.gov/pubmed/24608069,Chewable tablet fed,Raltegravir,0,24,h,32.3,µmol*h/L,geo. mean,,,,AUC_inf,6.14,µmol/L,Geom.mean,,,,Cmax,,,,,,,,
+5437,Rhee 2014,https://www.ncbi.nlm.nih.gov/pubmed/24608069,granules suspension,Raltegravir,0,24,h,50.4,µmol*h/L,geo. mean,,,,AUC_inf,23.2,µmol/L,Geom.mean,,,,Cmax,,,,,,,,
+5438,Rhee 2014,https://www.ncbi.nlm.nih.gov/pubmed/24608069,filmcoated tablet,Raltegravir,0,24,h,19.2,µmol*h/L,geo. mean,,,,AUC_inf,5,µmol/L,Geom.mean,,,,Cmax,,,,,,,,
+5439,Iwamoto 2008,"https://www.ncbi.nlm.nih.gov/pubmed/17713476
+",10mg ,Raltegravir,0,12,h,0.82,µmol*h/L,geo. mean,,,,AUC_inf,0.58,µmol/L,Geom.mean,,,,Cmax,51.62,mL/min,arith.mean,,,,,
+5440,Iwamoto 2008,"https://www.ncbi.nlm.nih.gov/pubmed/17713476
+",25mg,Raltegravir,0,12,h,1.69,µmol*h/L,geo. mean,,,,AUC_inf,1.17,µmol/L,Geom.mean,,,,Cmax,78.4,mL/min,arith.mean,,,,,
+5441,Iwamoto 2008,"https://www.ncbi.nlm.nih.gov/pubmed/17713476
+",50mg,Raltegravir,0,12,h,4.49,µmol*h/L,geo. mean,,,,AUC_inf,2.37,µmol/L,Geom.mean,,,,Cmax,53.92,mL/min,arith.mean,,,,,
+5442,Iwamoto 2008,"https://www.ncbi.nlm.nih.gov/pubmed/17713476
+",100mg,Raltegravir,0,12,h,6.12,µmol*h/L,geo. mean,,,,AUC_inf,2.75,µmol/L,Geom.mean,,,,Cmax,59,mL/min,arith.mean,,,,,
+5443,Iwamoto 2008,"https://www.ncbi.nlm.nih.gov/pubmed/17713476
+",200mg,Raltegravir,0,12,h,16.9,µmol*h/L,geo. mean,,,,AUC_inf,5.83,µmol/L,Geom.mean,,,,Cmax,46.53,mL/min,arith.mean,,,,,
+5444,Iwamoto 2008,"https://www.ncbi.nlm.nih.gov/pubmed/17713476
+",400mg,Raltegravir,0,12,h,24.61,µmol*h/L,geo. mean,,,,AUC_inf,10.63,µmol/L,Geom.mean,,,,Cmax,60.88,mL/min,arith.mean,,,,,
+5445,Iwamoto 2008,"https://www.ncbi.nlm.nih.gov/pubmed/17713476
+",800mg,Raltegravir,0,12,h,63.11,µmol*h/L,geo. mean,,,,AUC_inf,24.67,µmol/L,Geom.mean,,,,Cmax,48.52,mL/min,arith.mean,,,,,
+5446,Iwamoto 2008,"https://www.ncbi.nlm.nih.gov/pubmed/17713476
+",1200mg,Raltegravir,0,12,h,84.01,µmol*h/L,geo. mean,,,,AUC_inf,30.96,µmol/L,Geom.mean,,,,Cmax,42.22,mL/min,arith.mean,,,,,
+5447,Iwamoto 2008,"https://www.ncbi.nlm.nih.gov/pubmed/17713476
+",1600mg,Raltegravir,0,12,h,95.6,µmol*h/L,geo. mean,,,,AUC_inf,36.06,µmol/L,Geom.mean,,,,Cmax,43.52,mL/min,arith.mean,,,,,
+5448,Wenning 2009,"https://www.ncbi.nlm.nih.gov/pubmed/19433563
+",400mg ,Raltegravir,0,12,h,27.57,µmol*h/L,geo. mean,,,,AUC_inf,8.61,µmol/L,Geom.mean,,,,,,,,,,,,
+5201,Rane 1976,https://www.ncbi.nlm.nih.gov/pubmed/1017153,3-9d,Digoxin,0,24,h,,,,,,,,,,,,,,,1.8,mL/min/kg,arith. Mean,,,,,
+5202,Rane 1976,https://www.ncbi.nlm.nih.gov/pubmed/1017153,1.3-11m,Digoxin,0,24,h,,,,,,,,,,,,,,,7.5,mL/min/kg,arith. Mean,,,,,
+5203,Rane 1976,https://www.ncbi.nlm.nih.gov/pubmed/1017153,2-5y,Digoxin,0,24,h,,,,,,,,,,,,,,,11.1,mL/min/kg,arith. Mean,,,,,
+5204,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID1,Digoxin,0,24,h,,,,,,,,,,,,,,,105.6,mL/min/m2,Individual,,,,,
+5205,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID2,Digoxin,0,24,h,,,,,,,,,,,,,,,62.1,mL/min/m2,Individual,,,,,
+5206,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID3,Digoxin,0,24,h,,,,,,,,,,,,,,,98.4,mL/min/m2,Individual,,,,,
+5207,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID4,Digoxin,0,24,h,,,,,,,,,,,,,,,63.6,mL/min/m2,Individual,,,,,
+5208,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID5,Digoxin,0,24,h,,,,,,,,,,,,,,,202.3,mL/min/m2,Individual,,,,,
+5209,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID6,Digoxin,0,24,h,,,,,,,,,,,,,,,117.8,mL/min/m2,Individual,,,,,
+5210,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID7,Digoxin,0,24,h,,,,,,,,,,,,,,,353,mL/min/m2,Individual,,,,,
+5211,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID8,Digoxin,0,24,h,,,,,,,,,,,,,,,74.08,mL/min/m2,Individual,,,,,
+5212,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID9,Digoxin,0,24,h,,,,,,,,,,,,,,,94.4,mL/min/m2,Individual,,,,,
+5213,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID10,Digoxin,0,24,h,,,,,,,,,,,,,,,107.8,mL/min/m2,Individual,,,,,
+5214,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID11,Digoxin,0,24,h,,,,,,,,,,,,,,,63.7,mL/min/m2,Individual,,,,,
+5215,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID12,Digoxin,0,24,h,,,,,,,,,,,,,,,56.1,mL/min/m2,Individual,,,,,
+5216,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID13,Digoxin,0,24,h,,,,,,,,,,,,,,,100,mL/min/m2,Individual,,,,,
+5217,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID14,Digoxin,0,24,h,,,,,,,,,,,,,,,65.1,mL/min/m2,Individual,,,,,
+5218,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID15,Digoxin,0,24,h,,,,,,,,,,,,,,,132.8,mL/min/m2,Individual,,,,,
+5219,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID16,Digoxin,0,24,h,,,,,,,,,,,,,,,62.5,mL/min/m2,Individual,,,,,
+5220,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID17,Digoxin,0,24,h,,,,,,,,,,,,,,,172.3,mL/min/m2,Individual,,,,,
+5221,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID18,Digoxin,0,24,h,,,,,,,,,,,,,,,98.7,mL/min/m2,Individual,,,,,
+5222,Nyberg 1980,https://www.ncbi.nlm.nih.gov/pubmed/7398751,neonates,Digoxin,0,24,h,,,,,,,,,,,,,,,3,mL/min/1.73m2,arith. Mean,,,,,Taken from Nyber 1978 reported doses and serum concentrations
+5223,Nyberg 1980,https://www.ncbi.nlm.nih.gov/pubmed/7398751,infants (moderate cl),Digoxin,0,24,h,,,,,,,,,,,,,,,4.5,mL/min/1.73m2,arith. Mean,,,,,Taken from Nyber 1978 reported doses and serum concentrations

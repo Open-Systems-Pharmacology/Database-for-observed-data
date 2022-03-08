@@ -1,3 +1,8 @@
+replaceNAbyEmptyString <- function(x){
+  x[is.na(x)] <- ""
+  return(x)
+}
+
 getTime <- function(timeValue,timeUnit,avgValue,lloqValue,eachID){
   timeUnit <- tolower(timeUnit)
   if(length(timeValue) != length(avgValue)) stop("Unequal length of time and avg values"," for ",eachID)
@@ -16,7 +21,7 @@ getTime <- function(timeValue,timeUnit,avgValue,lloqValue,eachID){
   timeValue <- as.numeric(timeValue)
   timeValue <- timeValue[!is.na(avgValue) & !is.na(timeValue) & !avgValue <= 0]
   timeUnit <- trimws(timeUnit,which = "both")
-  timeDim <- getDimension(timeUnit)
+  timeDim <- getDimension(timeUnit,eachID)
   if(timeDim != "Time") stop("Incorrect unit for time for ",eachID)
   return(list(value=timeValue,unit=timeUnit,dim=timeDim))
 }
@@ -46,7 +51,7 @@ getAverage <- function(avgValue,avgUnit,avgType,timeValue,lloqValue,eachID){
     avgValue <- avgValue[!is.na(avgValue) & !is.na(timeValue) & !avgValue <= 0]
     avgUnit <- trimws(avgUnit,which = "both")
     avgType <- trimws(avgType,which = "both")
-    avgDim <- getDimension(avgUnit)
+    avgDim <- getDimension(avgUnit,eachID)
     if(tolower(avgType)=="arith. mean"){
       avgType <- "ArithmeticMean"
     } else if(tolower(avgType)=="geo. mean" | tolower(avgType)=="geom. mean"){
@@ -97,11 +102,11 @@ getVariance <- function(varValue,varUnit,varType,avgValue,avgUnit,timeValue,n,ll
     varType <- trimws(varType,which = "both")
     if(tolower(varType)=="arith. sd"){
       varType <- "ArithmeticStdDev"
-      varDim <- getDimension(varUnit)
-      if(varDim != getDimension(avgUnit)) stop("Wrong dimension for ",varType," for ",eachID)
+      varDim <- getDimension(varUnit,eachID)
+      if(varDim != getDimension(avgUnit,eachID)) stop("Wrong dimension for ",varType," for ",eachID)
       varValue[is.na(varValue) | varValue<0] <- NaN
       varComment <- "."
-    } else if(tolower(varType)=="geo. sd"){
+    } else if(tolower(varType)=="geo. sd" | tolower(varType)=="geom. sd"){
       varType <- "GeometricStdDev"
       if(varUnit==""){
         varDim <- "Dimensionless"
@@ -113,8 +118,8 @@ getVariance <- function(varValue,varUnit,varType,avgValue,avgUnit,timeValue,n,ll
     } else if(tolower(varType)=="arith. sem"){
       if(!is.na(as.numeric(n)) & as.numeric(n) > 1){
         varType <- "ArithmeticStdDev"
-        varDim <- getDimension(varUnit)
-        if(varDim != getDimension(avgUnit)) stop("Wrong dimension for ",varType," for ",eachID)
+        varDim <- getDimension(varUnit,eachID)
+        if(varDim != getDimension(avgUnit,eachID)) stop("Wrong dimension for ",varType," for ",eachID)
         varValue <- varValue * sqrt(as.numeric(n))
         varValue[is.na(varValue) | varValue<0] <- NaN
         varComment <- "Arith. SEM converted to arith. SD"
@@ -141,10 +146,10 @@ getVariance <- function(varValue,varUnit,varType,avgValue,avgUnit,timeValue,n,ll
     } else if(tolower(varType)=="arith. cv"){
       varType <- "ArithmeticStdDev"
       if(varUnit=="%"){
-        varDim <- getDimension(avgUnit)
+        varDim <- getDimension(avgUnit,eachID)
         varValue <- varValue/100
       } else if(varUnit==""){
-        varDim <- getDimension(avgUnit)
+        varDim <- getDimension(avgUnit,eachID)
       } else{
         stop("Unknown unit for ",varType," for ",eachID)
       }
