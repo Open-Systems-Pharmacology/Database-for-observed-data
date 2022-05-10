@@ -1,0 +1,20 @@
+name: Check if all CSV files are UTF-8
+
+on: 
+  [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  utf8check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: ${{ github.event.pull_request.head.sha }}
+    - name: check utf-8
+      run: |
+          iconv -f UTF-8 *.csv -o /dev/null --verbose
+
+
