@@ -33,7 +33,8 @@ getAverage <- function(avgValue,avgUnit,avgType,timeValue,lloqValue,eachID){
     avgType <- ""
     avgDim <- ""
     avgUnit <- ""
-    avgValue <- rep(NaN,length(varValue))
+    avgValue <- rep(NaN,length(avgValue))
+    stop("No average type specified for ",eachID)
   } else {
     idLLOQ <- grepl(pattern = "<",avgValue,fixed = TRUE)
     if(length(idLLOQ)>0 | any(lloqValue != "")){
