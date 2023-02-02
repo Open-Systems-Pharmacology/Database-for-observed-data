@@ -259,7 +259,7 @@ ID,Study,Reference,Grouping,Analyte,t0,tend,t Unit,AUC Avg,AUC AvgUnit,AUC AvgTy
 5204,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID1,Digoxin,0,24,h,,,,,,,,,,,,,,,105.6,mL/min/m2,Individual,,,,,
 5205,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID2,Digoxin,0,24,h,,,,,,,,,,,,,,,62.1,mL/min/m2,Individual,,,,,
 5206,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID3,Digoxin,0,24,h,,,,,,,,,,,,,,,98.4,mL/min/m2,Individual,,,,,
-5207,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID4,Digoxin,0,24,h,,,,,,,,,,,,,,,63.6,mL/min/m2,Individual,,,,,
+5207,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID4,Digoxin,0,24,h,,,,,,,,,,,,,,,61.6,mL/min/m2,Individual,,,,,
 5208,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID5,Digoxin,0,24,h,,,,,,,,,,,,,,,202.3,mL/min/m2,Individual,,,,,
 5209,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID6,Digoxin,0,24,h,,,,,,,,,,,,,,,117.8,mL/min/m2,Individual,,,,,
 5210,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID7,Digoxin,0,24,h,,,,,,,,,,,,,,,353,mL/min/m2,Individual,,,,,
