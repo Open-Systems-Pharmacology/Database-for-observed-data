@@ -189,8 +189,8 @@
 5399,Walker 1979,https://www.ncbi.nlm.nih.gov/pubmed/762009,Volunteer 9,Amikacin,0,8,h,,,,,,,,,,,,,,,90.1,mL/min,Individual,,,,CLiv,
 5400,Walker 1979,https://www.ncbi.nlm.nih.gov/pubmed/762009,population,Amikacin,0,8,h,,,,,,,,,,,,,,,84.6,mL/min,Arith.mean,18,mL/min,arith. SD,CLiv,
 5417,Walker 1979,https://www.ncbi.nlm.nih.gov/pubmed/762009,Volunteer 6,Amikacin,0,8,h,,,,,,,,,,,,,,,66,mL/min,Individual,,,,CLiv,
-5337,Allegaert 2007,https://www.ncbi.nlm.nih.gov/pubmed/17897267,17d,Propofol,0,24,h,120.67,Âµg*min/mL,individual,,,,AUC_inf,,,,,,,,25.46,mL/min/kg,Individual,,,,,
-5338,Allegaert 2007,https://www.ncbi.nlm.nih.gov/pubmed/17897267,8d,Propofol,0,24,h,225.18,Âµg*min/mL,individual,,,,AUC_inf,,,,,,,,13.58,mL/min/kg,Individual,,,,,
+5337,Allegaert 2007,https://www.ncbi.nlm.nih.gov/pubmed/17897267,17d,Propofol,0,24,h,120.67,µg*min/mL,individual,,,,AUC_inf,,,,,,,,25.46,mL/min/kg,Individual,,,,,
+5338,Allegaert 2007,https://www.ncbi.nlm.nih.gov/pubmed/17897267,8d,Propofol,0,24,h,225.18,µg*min/mL,individual,,,,AUC_inf,,,,,,,,13.58,mL/min/kg,Individual,,,,,
 5339,Kataria 1994,https://www.ncbi.nlm.nih.gov/pubmed/8291699,ID10,Propofol,0,152,min,0.295,mmol*min/L,individual,,,,AUC_tend,,,,,,,,,,,,,,,
 5340,Kataria 1994,https://www.ncbi.nlm.nih.gov/pubmed/8291699,ID11,Propofol,0,2.5,h,0.292,mmol*min/L,individual,,,,AUC_tend,,,,,,,,,,,,,,,
 5341,Kataria 1994,https://www.ncbi.nlm.nih.gov/pubmed/8291699,ID12,Propofol,0,150,min,0.191,mmol*min/L,individual,,,,AUC_tend,,,,,,,,,,,,,,,
@@ -223,12 +223,12 @@
 5369,Saint-Maurice 1989,https://www.ncbi.nlm.nih.gov/pubmed/2611067,ind8,Propofol,0,4,h,0.088028169,mg*min/mL,individual,,,,AUC_inf,,,,,,,,28.4,mL/min/kg,Individual,,,,CLiv,AUCinf calculated based on Dose/CL
 5370,Saint-Maurice 1989,https://www.ncbi.nlm.nih.gov/pubmed/2611067,ind9,Propofol,0,4,h,0.065963061,mg*min/mL,individual,,,,AUC_inf,,,,,,,,37.9,mL/min/kg,Individual,,,,CLiv,AUCinf calculated based on Dose/CL
 5434,Saint-Maurice 1989,https://www.ncbi.nlm.nih.gov/pubmed/2611067,ind10,Propofol,0,4,h,0.06377551,mg*min/mL,individual,,,,AUC_inf,,,,,,,,39.2,mL/min/kg,Individual,,,,CLiv,AUCinf calculated based on Dose/CL
-5295,Iwamoto 2008,https://www.ncbi.nlm.nih.gov/pubmed/19143531,400mg FCT,Raltegravir,0,24,h,11,µmol*h/L,geo. mean,122,%,CV%,AUC_inf,2.88,µmol/L,geom.mean,184,Âµmol/L,CV%,Cmax,,,,,,,,
+5295,Iwamoto 2008,https://www.ncbi.nlm.nih.gov/pubmed/19143531,400mg FCT,Raltegravir,0,24,h,11,µmol*h/L,geo. mean,122,%,CV%,AUC_inf,2.88,µmol/L,geom.mean,184,µmol/L,CV%,Cmax,,,,,,,,
 5296,Markowitz 2006,https://www.ncbi.nlm.nih.gov/pubmed/17133211,100mg FCT MD,Raltegravir,0,12,h,5.7,µmol*h/L,geo. mean,,,,AUC_tau,2.1,µmol/L,geom.mean,,,,,,,,,,,,90% CI and Range were reported (not filled in)
 5297,Markowitz 2006,https://www.ncbi.nlm.nih.gov/pubmed/17133211,200mg FCT MD,Raltegravir,0,12,h,9.2,µmol*h/L,geo. mean,,,,AUC_tau,3.5,µmol/L,geom.mean,,,,,,,,,,,,90% CI and Range were reported (not filled in)
 5298,Markowitz 2006,https://www.ncbi.nlm.nih.gov/pubmed/17133211,400mg FCT MD,Raltegravir,0,12,h,14.2,µmol*h/L,geo. mean,,,,AUC_tau,4.5,µmol/L,geom.mean,,,,,,,,,,,,90% CI and Range were reported (not filled in)
 5299,Markowitz 2006,https://www.ncbi.nlm.nih.gov/pubmed/17133211,600mg FCT MD,Raltegravir,0,12,h,14.6,µmol*h/L,geo. mean,,,,AUC_tau,3.8,µmol/L,geom.mean,,,,,,,,,,,,90% CI and Range were reported (not filled in)
-5300,Kassahun 2007,https://www.ncbi.nlm.nih.gov/pubmed/17591678,200mg FCT SD,Raltegravir,0,22,h,11.28,µmol*h/L,arith. Mean,4.36,µmol*h/L,arith. SD,AUC_tau,4.94,µmol/L,arith. mean,1.8,Âµmol/L,arith. SD,Cmax,,,,,,,,t_end a mean of 22 (from reported 20-24h) was inputed
+5300,Kassahun 2007,https://www.ncbi.nlm.nih.gov/pubmed/17591678,200mg FCT SD,Raltegravir,0,22,h,11.28,µmol*h/L,arith. Mean,4.36,µmol*h/L,arith. SD,AUC_tau,4.94,µmol/L,arith. mean,1.8,µmol/L,arith. SD,Cmax,,,,,,,,t_end a mean of 22 (from reported 20-24h) was inputed
 5301,Rizk 2015,https://www.ncbi.nlm.nih.gov/pubmed/25753401,3.5m,Raltegravir,0,12,h,21.6,µmol*h/L,geo. mean,40,%,CV%,AUC_tend,,,,,,,,,,,,,,,
 5302,Rizk 2015,https://www.ncbi.nlm.nih.gov/pubmed/25753401,15m,Raltegravir,0,12,h,19.8,µmol*h/L,geo. mean,34,%,CV%,AUC_tend,,,,,,,,,,,,,,,
 5303,Nachmann 2013,https://www.ncbi.nlm.nih.gov/pubmed/24145879,Cohort 1,Raltegravir,0,12,h,10.2,mg*h/L,arith. Mean,10,mg*h/L,arith. SD,AUC_tend,2813.1,ng/mL,arith. mean,2673.9,ng/mL,arith. SD,Cmax,71.7,L/h,arith.mean,56.7,L/h,arith. SD,CL/F,"Other than Arithmatic mean, also median and Geomean with CV% are reported"
