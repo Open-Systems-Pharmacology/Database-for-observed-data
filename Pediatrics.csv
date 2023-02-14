@@ -256,23 +256,23 @@ ID,Study,Reference,Grouping,Analyte,t0,tend,t Unit,AUC Avg,AUC AvgUnit,AUC AvgTy
 5201,Rane 1976,https://www.ncbi.nlm.nih.gov/pubmed/1017153,3-9d,Digoxin,0,24,h,,,,,,,,,,,,,,,1.8,mL/min/kg,arith. Mean,,,,,
 5202,Rane 1976,https://www.ncbi.nlm.nih.gov/pubmed/1017153,1.3-11m,Digoxin,0,24,h,,,,,,,,,,,,,,,7.5,mL/min/kg,arith. Mean,,,,,
 5203,Rane 1976,https://www.ncbi.nlm.nih.gov/pubmed/1017153,2-5y,Digoxin,0,24,h,,,,,,,,,,,,,,,11.1,mL/min/kg,arith. Mean,,,,,
-5204,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID1,Digoxin,0,24,h,,,,,,,,,,,,,,,105.6,mL/min/m2,Individual,,,,,
-5205,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID2,Digoxin,0,24,h,,,,,,,,,,,,,,,62.1,mL/min/m2,Individual,,,,,
-5206,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID3,Digoxin,0,24,h,,,,,,,,,,,,,,,98.4,mL/min/m2,Individual,,,,,
-5207,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID4,Digoxin,0,24,h,,,,,,,,,,,,,,,61.6,mL/min/m2,Individual,,,,,
-5208,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID5,Digoxin,0,24,h,,,,,,,,,,,,,,,202.3,mL/min/m2,Individual,,,,,
-5209,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID6,Digoxin,0,24,h,,,,,,,,,,,,,,,117.8,mL/min/m2,Individual,,,,,
-5210,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID7,Digoxin,0,24,h,,,,,,,,,,,,,,,353,mL/min/m2,Individual,,,,,
-5211,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID8,Digoxin,0,24,h,,,,,,,,,,,,,,,74.08,mL/min/m2,Individual,,,,,
-5212,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID9,Digoxin,0,24,h,,,,,,,,,,,,,,,94.4,mL/min/m2,Individual,,,,,
-5213,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID10,Digoxin,0,24,h,,,,,,,,,,,,,,,107.8,mL/min/m2,Individual,,,,,
-5214,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID11,Digoxin,0,24,h,,,,,,,,,,,,,,,63.7,mL/min/m2,Individual,,,,,
-5215,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID12,Digoxin,0,24,h,,,,,,,,,,,,,,,56.1,mL/min/m2,Individual,,,,,
-5216,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID13,Digoxin,0,24,h,,,,,,,,,,,,,,,100,mL/min/m2,Individual,,,,,
-5217,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID14,Digoxin,0,24,h,,,,,,,,,,,,,,,65.1,mL/min/m2,Individual,,,,,
-5218,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID15,Digoxin,0,24,h,,,,,,,,,,,,,,,132.8,mL/min/m2,Individual,,,,,
-5219,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID16,Digoxin,0,24,h,,,,,,,,,,,,,,,62.5,mL/min/m2,Individual,,,,,
-5220,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID17,Digoxin,0,24,h,,,,,,,,,,,,,,,172.3,mL/min/m2,Individual,,,,,
-5221,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID18,Digoxin,0,24,h,,,,,,,,,,,,,,,98.7,mL/min/m2,Individual,,,,,
-5222,Nyberg 1980,https://www.ncbi.nlm.nih.gov/pubmed/7398751,neonates,Digoxin,0,24,h,,,,,,,,,,,,,,,3,mL/min/1.73m2,arith. Mean,,,,,Taken from Nyber 1978 reported doses and serum concentrations
-5223,Nyberg 1980,https://www.ncbi.nlm.nih.gov/pubmed/7398751,infants (moderate cl),Digoxin,0,24,h,,,,,,,,,,,,,,,4.5,mL/min/1.73m2,arith. Mean,,,,,Taken from Nyber 1978 reported doses and serum concentrations
+5204,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID1-1y,Digoxin,0,24,h,,,,,,,,,,,,,,,39.072,mL/min,Individual,,,,,Clearance converted from mL/min/m2 to mL/min using reported m2 values
+5205,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID1-DDI 15m,Digoxin,0,24,h,,,,,,,,,,,,,,,24.219,mL/min,Individual,,,,,Clearance converted from mL/min/m2 to mL/min using reported m2 values
+5206,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID1-16m,Digoxin,0,24,h,,,,,,,,,,,,,,,39.36,mL/min,Individual,,,,,Clearance converted from mL/min/m2 to mL/min using reported m2 values
+5207,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,"ID1-DDI 2y,4m",Digoxin,0,24,h,,,,,,,,,,,,,,,27.72,mL/min,Individual,,,,,Clearance converted from mL/min/m2 to mL/min using reported m2 values
+5208,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID2-9m,Digoxin,0,24,h,,,,,,,,,,,,,,,48.552,mL/min,Individual,,,,,Clearance converted from mL/min/m2 to mL/min using reported m2 values
+5209,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID2-DDI 13m,Digoxin,0,24,h,,,,,,,,,,,,,,,36.518,mL/min,Individual,,,,,Clearance converted from mL/min/m2 to mL/min using reported m2 values
+5210,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID3- 3y8m,Digoxin,0,24,h,,,,,,,,,,,,,,,218.86,mL/min,Individual,,,,,Clearance converted from mL/min/m2 to mL/min using reported m2 values
+5211,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID3-DDI 7y8m,Digoxin,0,24,h,,,,,,,,,,,,,,,69.6352,mL/min,Individual,,,,,Clearance converted from mL/min/m2 to mL/min using reported m2 values
+5212,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,"ID4-1y,7m",Digoxin,0,24,h,,,,,,,,,,,,,,,42.48,mL/min,Individual,,,,,Clearance converted from mL/min/m2 to mL/min using reported m2 values
+5213,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID4-DDI 3y5m,Digoxin,0,24,h,,,,,,,,,,,,,,,61.446,mL/min,Individual,,,,,Clearance converted from mL/min/m2 to mL/min using reported m2 values
+5214,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID5-2w,Digoxin,0,24,h,,,,,,,,,,,,,,,14.651,mL/min,Individual,,,,,Clearance converted from mL/min/m2 to mL/min using reported m2 values
+5215,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID5-DDI 4w,Digoxin,0,24,h,,,,,,,,,,,,,,,13.464,mL/min,Individual,,,,,Clearance converted from mL/min/m2 to mL/min using reported m2 values
+5216,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID6-6m,Digoxin,0,24,h,,,,,,,,,,,,,,,26,mL/min,Individual,,,,,Clearance converted from mL/min/m2 to mL/min using reported m2 values
+5217,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID6-DDI 8m,Digoxin,0,24,h,,,,,,,,,,,,,,,18.879,mL/min,Individual,,,,,Clearance converted from mL/min/m2 to mL/min using reported m2 values
+5218,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID7-8m,Digoxin,0,24,h,,,,,,,,,,,,,,,46.48,mL/min,Individual,,,,,Clearance converted from mL/min/m2 to mL/min using reported m2 values
+5219,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID7-DDI 9m,Digoxin,0,24,h,,,,,,,,,,,,,,,21.875,mL/min,Individual,,,,,Clearance converted from mL/min/m2 to mL/min using reported m2 values
+5220,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID8-DDI 7m,Digoxin,0,24,h,,,,,,,,,,,,,,,62.028,mL/min,Individual,,,,,Clearance converted from mL/min/m2 to mL/min using reported m2 values
+5221,Ratnapalan 2003,https://www.ncbi.nlm.nih.gov/pubmed/12756393,ID8-DDI 8m,Digoxin,0,24,h,,,,,,,,,,,,,,,35.532,mL/min,Individual,,,,,Clearance converted from mL/min/m2 to mL/min using reported m2 values
+5222,Nyberg 1980,https://www.ncbi.nlm.nih.gov/pubmed/7398751,neonates,Digoxin,0,24,h,,,,,,,,,,,,,,,3,mL/min/kg,arith. Mean,,,,,Taken from Nyber 1978 reported doses and serum concentrations
+5223,Nyberg 1980,https://www.ncbi.nlm.nih.gov/pubmed/7398751,infants (moderate cl),Digoxin,0,24,h,,,,,,,,,,,,,,,4.5,mL/min/kg,arith. Mean,,,,,Taken from Nyber 1978 reported doses and serum concentrations
