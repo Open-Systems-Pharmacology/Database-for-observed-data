@@ -1,4 +1,4 @@
-name: Check if all CSV files are UTF-8
+name: Check if all required files are UTF-8
 
 on: 
   [push, pull_request]
@@ -8,13 +8,6 @@ permissions:
 
 jobs:
   utf8check:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-      with:
-        ref: ${{ github.event.pull_request.head.sha }}
-    - name: check utf-8
-      run: |
-          iconv -f UTF-8 *.csv -o /dev/null --verbose
-
-
+    uses: Open-Systems-Pharmacology/Workflows/.github/workflows/UTF8Check.yml@main
+    with:
+      file-extensions: 'R\|json\|md\|csv'  #File extension(s) to check separated by \| Examples: R R\|json
