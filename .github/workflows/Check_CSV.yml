@@ -1,0 +1,25 @@
+# S. https://github.com/marketplace/actions/csvlinter for details
+# CAUTION: does not catch ALL csv errors
+# Better linter: https://csvlint.io
+name: Check if CSV files are valid
+
+on: 
+  [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    name: csv lint
+    steps:
+    - uses: actions/checkout@v4
+    - name: get_files
+      run: |
+        csv_files=$(find -type f -ipath ".*csv" -printf "%p ")
+        echo "CSV_FILES=$csv_files" >> $GITHUB_ENV
+    - name: csvlinter
+      uses: kcheriyath/csvlinter@V0.6.0
+      with:
+        file_list: "${{ env.CSV_FILES }}"
