@@ -23,6 +23,8 @@ jobs:
               echo "Error: File $file has a BOM"
               echo "::error file=$file::File has BOM"
               bom_found=true
+            else
+              echo "File $file is valid"
             fi
           done
           if [ "$bom_found" = true ] ; then
