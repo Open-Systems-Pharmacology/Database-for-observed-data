@@ -22,9 +22,10 @@ jobs:
             if [ "$bom" = "efbbbf" ]; then
               echo "Error: File $file has a BOM"
               echo "::error file=$file::File has BOM"
+              bom_found=true
             fi
           done
-          if [ -n "$(git status --porcelain)" ]; then
+          if [ "$bom_found" = true ] ; then
             echo "At least one file has BOM, failing the action"
             exit 1
           fi
