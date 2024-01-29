@@ -25,6 +25,7 @@ jobs:
               bom_found=true
             else
               echo "File $file is valid"
+              echo "::notice File $file is valid"
             fi
           done
           if [ "$bom_found" = true ] ; then
