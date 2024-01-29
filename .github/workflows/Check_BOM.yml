@@ -1,0 +1,30 @@
+
+name: Check BOM in CSV files
+
+on: 
+  [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  check-bom:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check for BOM in CSV files
+        run: |
+          shopt -s globstar
+          for file in **/*.csv; do
+            bom=$(hexdump -n 3 -e '/1 "%02x"' "$file")
+            if [ "$bom" = "efbbbf" ]; then
+              echo "Error: File $file has a BOM"
+              echo "::error file=$file::File has BOM"
+            fi
+          done
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "At least one file has BOM, failing the action"
+            exit 1
+          fi
