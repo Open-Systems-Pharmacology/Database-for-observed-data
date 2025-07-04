@@ -5,6 +5,9 @@ on:
     paths:
       - '**.xlsx'
 
+permissions:
+  pull-requests: write
+
 jobs:
   excel_diff:
     runs-on: ubuntu-latest
