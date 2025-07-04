@@ -26,6 +26,8 @@ def compare_excel(file1, file2):
             diff_report.append(f"Changes in sheet '{sheet}':")
             diff = df1.compare(df2, keep_shape=True, keep_equal=False)
             diff = diff.dropna(how='all')  # Only keep rows with actual differences
+            diff = diff.dropna(axis=1, how='all')# Only columns with differences
+            diff = diff.fillna('')               # Replace NaN with empty string
             diff_report.append(diff.to_markdown())
     return "\n\n".join(diff_report) if diff_report else "No differences found."
 
