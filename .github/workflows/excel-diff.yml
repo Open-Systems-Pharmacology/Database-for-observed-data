@@ -1,13 +1,12 @@
 name: Excel Diff on PR
 
 on:
-  pull_request:
+  pull_request_target:
     paths:
       - '**.xlsx'
 
 permissions:
   pull-requests: write
-  issues: write
 
 jobs:
   excel_diff:
