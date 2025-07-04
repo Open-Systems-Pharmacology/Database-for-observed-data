@@ -47,15 +47,15 @@ jobs:
           name: excel-diff-reports
           path: diff_reports/
 
-      - name: Post diff as PR comment
-        if: steps.files.outputs.files != ''
-        run: |
-          for report in diff_reports/*.diff.txt; do
-            body="**Excel file difference for:** $(basename $report .diff.txt)\n\n\`\`\`markdown\n$(cat $report)\n\`\`\`"
-            gh pr comment ${{ github.event.pull_request.number }} --body "$body"
-          done
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#      - name: Post diff as PR comment
+#        if: steps.files.outputs.files != ''
+#        run: |
+#          for report in diff_reports/*.diff.txt; do
+#            body="**Excel file difference for:** $(basename $report .diff.txt)\n\n\`\`\`markdown\n$(cat $report)\n\`\`\`"
+#            gh pr comment ${{ github.event.pull_request.number }} --body "$body"
+#          done
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 #        run: |
 #          body="**Excel file differences:**\n"
 #          for report in diff_reports/*.diff.txt; do

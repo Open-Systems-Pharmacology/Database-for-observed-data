@@ -1,3 +1,6 @@
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning)
+
 import sys
 import pandas as pd
 
@@ -17,8 +20,8 @@ def compare_excel(file1, file2):
         if sheet not in sheets2:
             diff_report.append(f"Sheet '{sheet}' only in {file1}")
             continue
-        df1 = xl1.parse(sheet).fillna("")
-        df2 = xl2.parse(sheet).fillna("")
+        df1 = xl1.parse(sheet)
+        df2 = xl2.parse(sheet)
         if not df1.equals(df2):
             diff_report.append(f"Changes in sheet '{sheet}':")
             diff = df1.compare(df2, keep_shape=True, keep_equal=False)
