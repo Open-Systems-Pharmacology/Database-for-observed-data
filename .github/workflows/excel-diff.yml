@@ -21,7 +21,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install pandas openpyxl
+          pip install pandas openpyxl tabulate
 
       - name: Find changed Excel files
         id: files
