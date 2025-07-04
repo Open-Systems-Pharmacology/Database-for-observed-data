@@ -26,27 +26,29 @@ jobs:
       - name: Find changed Excel files
         id: files
         run: |
-          git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep '.xlsx' || true
+          FILES=$(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep '.xlsx' || true)
+          echo "files=$FILES" >> $GITHUB_OUTPUT
+
 
       - name: Compare Excel files and generate report
-        if: steps.files.outputs.stdout != ''
+        if: steps.files.outputs.files != ''
         run: |
           mkdir -p diff_reports
-          for file in $(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep '.xlsx'); do
+          for file in ${{ steps.files.outputs.files }}; do
             git show ${{ github.event.pull_request.base.sha }}:$file > old.xlsx || touch old.xlsx
             cp $file new.xlsx
             python .github/scripts/compare_excels.py old.xlsx new.xlsx diff_reports/$file.diff.txt
           done
 
       - name: Upload diff report artifact
-        if: steps.files.outputs.stdout != ''
+        if: steps.files.outputs.files != ''
         uses: actions/upload-artifact@v4
         with:
           name: excel-diff-reports
           path: diff_reports/
 
       - name: Post diff as PR comment
-        if: steps.files.outputs.stdout != ''
+        if: steps.files.outputs.files != ''
         run: |
           body="**Excel file differences:**\n"
           for report in diff_reports/*.diff.txt; do
