@@ -175,17 +175,17 @@ ID,Study,Reference,Grouping,Analyte,t0,tend,t Unit,AUC Avg,AUC AvgUnit,AUC AvgTy
 5113,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID18,Amikacin,0,225,min,,,,,,,,,,,,,,,1.88,mL/min/kg,individual,,,,CLiv,Table 1
 5114,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID19,Amikacin,0,225,min,,,,,,,,,,,,,,,2.06,mL/min/kg,individual,,,,CLiv,Table 1
 5115,Vogelstein 1977,https://www.ncbi.nlm.nih.gov/pubmed/874697,ID20,Amikacin,0,225,min,,,,,,,,,,,,,,,2.47,mL/min/kg,individual,,,,CLiv,Table 1
-5116,Belfayol 1996,https://www.ncbi.nlm.nih.gov/pubmed/11866842,mean,Amikacin,0,24,h,,,,,,,,,,,,,,,56.3,mL/min,arith. Mean,33.8,mL/min,arith. SD,CLiv,Table 1
+5116,Belfayol 1996,https://www.ncbi.nlm.nih.gov/pubmed/11866842,mean,Amikacin,0,24,h,,,,,,,,,,,,,,,2.395744681,mL/min/kg,arith. Mean,1.438297872,mL/min/kg,arith. SD,CLiv,Table 1
 5117,Boekh 1988,https://www.ncbi.nlm.nih.gov/pubmed/3279907,mean 0.5g,vancomycin,0,720,min,,,,,,,,,,,,,,,94.5,mL/min,arith. Mean,15.9,mL/min,arith. SD,CLiv,Table 1
 5118,Boekh 1988,https://www.ncbi.nlm.nih.gov/pubmed/3279907,mean 1g,vancomycin,0,720,min,,,,,,,,,,,,,,,96.5,mL/min,arith. Mean,18.1,mL/min,arith. SD,CLiv,Table 1
 5119,Healy 1987,https://www.ncbi.nlm.nih.gov/pubmed/3579256,mean 0.5g,vancomycin,0,61.00335,h,,,,,,,,,,,,,,,84.8,mL/min,arith. Mean,11.5,mL/min/1.73m2,arith. SD,CLiv,At steady state (Table 1)
 5120,Healy 1987,https://www.ncbi.nlm.nih.gov/pubmed/3579256,mean 1g,vancomycin,0,61.28713,h,,,,,,,,,,,,,,,86.1,mL/min,arith. Mean,8.9,mL/min/1.73m2,arith. SD,CLiv,At steady state (Table 2)
-5121,Schaad 1980,https://www.ncbi.nlm.nih.gov/pubmed/7350291,ID 1,vancomycin,0,6.5,h,,,,,,,,,,,,,,,3.641618497,mL/min,arith. Mean,,,,CLiv,
-5122,Schaad 1980,https://www.ncbi.nlm.nih.gov/pubmed/7350291,ID 2,vancomycin,0,7,h,,,,,,,,,,,,,,,8.092485549,mL/min,arith. Mean,,,,CLiv,
-5123,Schaad 1980,https://www.ncbi.nlm.nih.gov/pubmed/7350291,ID 3,vancomycin,0,7,h,,,,,,,,,,,,,,,14.04624277,mL/min,arith. Mean,,,,CLiv,
-5124,Schaad 1980,https://www.ncbi.nlm.nih.gov/pubmed/7350291,ID 4,vancomycin,0,7,h,,,,,,,,,,,,,,,61.24277457,mL/min,arith. Mean,,,,CLiv,
-5125,Schaad 1980,https://www.ncbi.nlm.nih.gov/pubmed/7350291,ID 5,vancomycin,0,7,h,,,,,,,,,,,,,,,59.06358382,mL/min,arith. Mean,,,,CLiv,
-5126,Schaad 1980,https://www.ncbi.nlm.nih.gov/pubmed/7350291,ID 6,vancomycin,0,8,h,,,,,,,,,,,,,,,74.3583815,mL/min,arith. Mean,,,,CLiv,
+5121,Schaad 1980,https://www.ncbi.nlm.nih.gov/pubmed/7350291,ID 1,vancomycin,0,6.5,h,,,,,,,,,,,,,,,1.18619495,mL/min/kg,arith. Mean,,,,CLiv,
+5122,Schaad 1980,https://www.ncbi.nlm.nih.gov/pubmed/7350291,ID 2,vancomycin,0,7,h,,,,,,,,,,,,,,,1.651527663,mL/min/kg,arith. Mean,,,,CLiv,
+5123,Schaad 1980,https://www.ncbi.nlm.nih.gov/pubmed/7350291,ID 3,vancomycin,0,7,h,,,,,,,,,,,,,,,2.701200533,mL/min/kg,arith. Mean,,,,CLiv,
+5124,Schaad 1980,https://www.ncbi.nlm.nih.gov/pubmed/7350291,ID 4,vancomycin,0,7,h,,,,,,,,,,,,,,,3.951146746,mL/min/kg,arith. Mean,,,,CLiv,
+5125,Schaad 1980,https://www.ncbi.nlm.nih.gov/pubmed/7350291,ID 5,vancomycin,0,7,h,,,,,,,,,,,,,,,2.953179191,mL/min/kg,arith. Mean,,,,CLiv,
+5126,Schaad 1980,https://www.ncbi.nlm.nih.gov/pubmed/7350291,ID 6,vancomycin,0,8,h,,,,,,,,,,,,,,,2.784958109,mL/min/kg,arith. Mean,,,,CLiv,
 5399,Walker 1979,https://www.ncbi.nlm.nih.gov/pubmed/762009,Volunteer 9,Amikacin,0,8,h,,,,,,,,,,,,,,,90.1,mL/min,Individual,,,,CLiv,
 5400,Walker 1979,https://www.ncbi.nlm.nih.gov/pubmed/762009,population,Amikacin,0,8,h,,,,,,,,,,,,,,,84.6,mL/min,Arith.mean,18,mL/min,arith. SD,CLiv,
 5417,Walker 1979,https://www.ncbi.nlm.nih.gov/pubmed/762009,Volunteer 6,Amikacin,0,8,h,,,,,,,,,,,,,,,66,mL/min,Individual,,,,CLiv,
