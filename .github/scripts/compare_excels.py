@@ -24,7 +24,7 @@ def compare_excel(file1, file2):
         df2 = xl2.parse(sheet)
         if not df1.equals(df2):
             diff_report.append(f"Changes in sheet '{sheet}':")
-            diff = df1.compare(df2, keep_shape=True, keep_equal=False)
+            diff = df1.compare(df2, keep_shape=True, keep_equal=False, result_names=("OLD", "NEW"))
             diff = diff.dropna(how='all')  # Only keep rows with actual differences
             diff = diff.dropna(axis=1, how='all')# Only columns with differences
             diff = diff.fillna('')               # Replace NaN with empty string
